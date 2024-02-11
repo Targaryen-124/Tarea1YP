@@ -54,23 +54,27 @@ public class App
     }
     
     public static double aCirculo(double radio) {
-    	System.out.print("El area es de: " + radio*Math.PI);
-		return 0;
+    	double resul = (radio*radio)*Math.PI;
+    	System.out.println("El area es de: " + resul);
+		return resul;
 	}
     
     public static double aCuadrado(double lado) {
-    	System.out.print("El area es de: " + lado*lado);
-		return 0;
+    	double resul = lado*lado;
+    	System.out.println("El area es de: " + resul);
+		return resul;
 	}
     
     public static double aTriangulo(double base, double altura) {
-    	System.out.print("El area es de: " + (base*altura)/2);
-		return 0;
+    	double resul = (base*altura)/2;
+    	System.out.println("El area es de: " + resul);
+		return resul;
 	}
     
     public static double aRectangulo(double base, double altura) {
-    	System.out.print("El area es de: " + base*altura);
-		return 0;
+    	double resul = base*altura;
+    	System.out.println("El area es de: " + resul);
+		return resul;
 	}
     
 }
